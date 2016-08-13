@@ -20,4 +20,8 @@
     return self;
 }
 
+- (NSString *)description{
+    return [NSString stringWithFormat:@"%@---%@---%f", self.name, self.birthdate, self.height];
+}
+
 @end

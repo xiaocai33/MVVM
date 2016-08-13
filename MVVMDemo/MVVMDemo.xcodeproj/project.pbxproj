@@ -16,6 +16,7 @@
 		33365B521D5F114B00DB9D5F /* MVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33365B511D5F114B00DB9D5F /* MVVMDemoTests.m */; };
 		33365B5D1D5F114B00DB9D5F /* MVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33365B5C1D5F114B00DB9D5F /* MVVMDemoUITests.m */; };
 		33365B6C1D5F116F00DB9D5F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 33365B6B1D5F116F00DB9D5F /* Person.m */; };
+		33365B6F1D5F197500DB9D5F /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33365B6E1D5F197500DB9D5F /* PersonViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		33365B5E1D5F114B00DB9D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33365B6A1D5F116F00DB9D5F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		33365B6B1D5F116F00DB9D5F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		33365B6D1D5F197500DB9D5F /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		33365B6E1D5F197500DB9D5F /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				33365B3E1D5F114A00DB9D5F /* ViewController.m */,
 				33365B6A1D5F116F00DB9D5F /* Person.h */,
 				33365B6B1D5F116F00DB9D5F /* Person.m */,
+				33365B6D1D5F197500DB9D5F /* PersonViewModel.h */,
+				33365B6E1D5F197500DB9D5F /* PersonViewModel.m */,
 				33365B401D5F114A00DB9D5F /* Main.storyboard */,
 				33365B431D5F114A00DB9D5F /* Assets.xcassets */,
 				33365B451D5F114A00DB9D5F /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33365B6F1D5F197500DB9D5F /* PersonViewModel.m in Sources */,
 				33365B3F1D5F114A00DB9D5F /* ViewController.m in Sources */,
 				33365B3C1D5F114A00DB9D5F /* AppDelegate.m in Sources */,
 				33365B6C1D5F116F00DB9D5F /* Person.m in Sources */,
